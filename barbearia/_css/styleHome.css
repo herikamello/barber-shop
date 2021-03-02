@@ -2,6 +2,8 @@ body {
     margin-top: 25px;
     margin-right: 25px;
     margin-left: 25px;
+    background-color: #000000;
+    color: #ffffff;
 }
 
 header {
@@ -27,4 +29,18 @@ nav a {
 .textoinicial {
     font-size: 20px;
     text-align: justify;
+}
+
+main {
+    text-align: center;
+}
+
+main li {
+    display: inline;
+    margin: 0 0 0 25px
+}
+
+.minhaclasse {
+    width: 350px;
+    height: 200px;
 }
