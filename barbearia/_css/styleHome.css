@@ -26,6 +26,11 @@ nav a {
     text-decoration: none;
 }
 
+nav a:hover {
+    color: #ffd280;
+    text-decoration: underline;
+}
+
 .textoinicial {
     font-size: 20px;
     text-align: justify;
@@ -38,6 +43,20 @@ main {
 main li {
     display: inline;
     margin: 0 0 0 25px
+}
+
+img {
+    padding: 5px 5px 5px 5px;
+}
+
+main img:hover {
+    border-style: solid;
+    border-color: #FFA500;
+    border-width: 5px;
+}
+
+main img:active {
+    border-color: #794f02;
 }
 
 .minhaclasse {
